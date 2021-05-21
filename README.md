@@ -1,7 +1,7 @@
 Unelmacoin Core integration/staging repository
 =====================================
 
-unelmacoin is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
+Unelmacoin is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Coin Mixing_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
