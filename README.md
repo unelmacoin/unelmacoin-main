@@ -10,7 +10,7 @@ unelmacoin is a cutting edge cryptocurrency, with many features not available in
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 25K unelmacoin
 
-More information at [unelmacoin.io](http://www.unelmacoin.io)
+More information at [unelmacoin.org](http://www.unelmacoin.org)
 
 ### Coin Specs
 <table>
