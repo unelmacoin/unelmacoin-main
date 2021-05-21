@@ -1,4 +1,4 @@
-unelmacoin Core integration/staging repository
+Unelmacoin Core integration/staging repository
 =====================================
 
 unelmacoin is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
