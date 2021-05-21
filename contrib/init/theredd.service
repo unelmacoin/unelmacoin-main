@@ -1,0 +1,26 @@
+[Unit]
+Description=unelmacoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=unelmacoin
+Group=unelmacoin
+
+Type=forking
+PIDFile=/var/lib/unelmacoind/unelmacoind.pid
+
+ExecStart=/usr/bin/unelmacoind -daemon -pid=/var/lib/unelmacoind/unelmacoind.pid \
+          -conf=/etc/unelmacoin/unelmacoin.conf -datadir=/var/lib/unelmacoind
+
+ExecStop=-/usr/bin/unelmacoin-cli -conf=/etc/unelmacoin/unelmacoin.conf \
+         -datadir=/var/lib/unelmacoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

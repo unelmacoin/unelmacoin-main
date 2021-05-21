@@ -1,0 +1,26 @@
+# /etc/conf.d/unelmacoind: config file for /etc/init.d/unelmacoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/unelmacoin/unelmacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/unelmacoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/unelmacoind.pid"
+
+# Where to write unelmacoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/unelmacoind"
+
+# User and group to own unelmacoind process
+#BITCOIND_USER="unelmacoin"
+#BITCOIND_GROUP="unelmacoin"
+
+# Path to unelmacoind executable
+#BITCOIND_BIN="/usr/bin/unelmacoind"
+
+# Nice value to run unelmacoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

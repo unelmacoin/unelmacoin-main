@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=unelmacoin
+Comment=unelmacoin P2P Cryptocurrency
+Comment[fr]=unelmacoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=unelmacoin, eşten eşe kriptografik sanal para birimi
+Exec=unelmacoin-qt %u
+Terminal=false
+Type=Application
+Icon=unelmacoin128
+MimeType=x-scheme-handler/unelmacoin;
+Categories=Office;Finance;

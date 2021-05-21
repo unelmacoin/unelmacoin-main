@@ -1,0 +1,11 @@
+[Protocol]
+exec=unelmacoin-qt '%u'
+protocol=unelmacoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
