@@ -49,7 +49,7 @@ More information at [unelmacoin.org](http://www.unelmacoin.org)
 
 
 ### Contact
-Please send private message to if you would like to start masternode
+Please send private message if you would like to start masternode
 <br>Email: support@unelmacoin.com
 <br>Facebook: https://www.facebook.com/unelmacoin
 
