@@ -6,7 +6,7 @@ Unelmacoin is a cutting edge cryptocurrency, with many features not available in
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with collateral of 25K unelmacoin
+  with collateral of 250K unelmacoin
 
 More information at [unelmacoin.org](http://www.unelmacoin.org)
 
@@ -32,7 +32,7 @@ More information at [unelmacoin.org](http://www.unelmacoin.org)
 
 ### Staking Methods
 <table>
-<tr><td>Masternodes</td><td>Yes - 25k unelmacoin Required</td></tr>
+<tr><td>Masternodes</td><td>Yes - 250k unelmacoin Required</td></tr>
 <tr><td>Wallet Staking</td><td>Yes - 1 to infinite unelmacoin</td></tr>
 </table>
 
