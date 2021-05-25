@@ -8,7 +8,7 @@ Unelmacoin is a cutting edge cryptocurrency, with many features not available in
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 250K unelmacoin
 
-More information at [unelmacoin.org](http://www.unelmacoin.org)
+More information at [unelmacoin.io](http://www.unelmacoin.io)
 
 ### Coin Specs
 <table>
@@ -52,4 +52,5 @@ More information at [unelmacoin.org](http://www.unelmacoin.org)
 Please send private message if you would like to start masternode
 <br>Email: support@unelmacoin.com
 <br>Facebook: https://www.facebook.com/unelmacoin
+<br>Website: https://unelmacoin.io
 
