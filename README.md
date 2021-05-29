@@ -53,4 +53,4 @@ Please send private message if you would like to start masternode
 <br>Email: support@unelmacoin.com
 <br>Facebook: https://www.facebook.com/unelmacoin
 <br>Website: https://unelmacoin.io
-
+<br>Discord: https://discord.gg/dccbXPKGRH
