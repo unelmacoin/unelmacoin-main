@@ -1,4 +1,5 @@
 #### Installation instructions for running UnelmaCoin in Ubuntu/Linux
+(Have been tested on Ubuntu 18.04 LTS)
 
 First we will install Build dependencies:
 
