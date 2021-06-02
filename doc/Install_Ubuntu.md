@@ -38,12 +38,12 @@ Download unelmacoin github source:
 
 Now we are going to compile the Client:
 
-`chmod a+x+w -R unelmacoin-main/`
-`cd unelmacoin-main`
-`./autogen.sh`
-`./configure`
-`make`
-`make install`
+`chmod a+x+w -R unelmacoin-main/` </br>
+`cd unelmacoin-main` </br>
+`./autogen.sh` </br>
+`./configure`</br>
+`make`</br>
+`make install`</br>
 
 Now lets run the unelmacoin daemon:
 
