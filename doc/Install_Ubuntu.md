@@ -43,6 +43,9 @@ Now we are going to compile the Client:
 `chmod a+x+w -R unelmacoin-main/` </br>
 `cd unelmacoin-main` </br>
 `./autogen.sh` </br>
+`sudo apt-get remove openssl` </br>
+`sudo apt-get install libcurl3` </br>
+`sudo apt-get install openssl1.0-dev` </br>
 `./configure`</br>
 `make`</br>
 `make install`</br>
