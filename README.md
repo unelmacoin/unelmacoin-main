@@ -49,8 +49,8 @@ More information at [unelmacoin.io](http://www.unelmacoin.io)
 
 
 ### Contact
-Please send private message if you would like to start masternode
-<br>Email: support@unelmacoin.com
+Please send private message if you would need help to start masternode 
+<br>Email: support(at)unelmacoin.com 
 <br>Facebook: https://www.facebook.com/unelmacoin
 <br>Website: https://unelmacoin.io
 <br>Discord: https://discord.gg/dccbXPKGRH
