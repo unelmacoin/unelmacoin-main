@@ -20,6 +20,7 @@ More information at [unelmacoin.io](http://www.unelmacoin.io)
 <tr><td>Max Coin Supply</td><td>45,000,000,000 UNC</td></tr>
 <tr><td>Premine/Initial Supply</td><td>1800,000,000 UNC</td></tr>
 <tr><td>unelmacoin Created Per block</td><td>50 unelmacoin*</td></tr>
+<tr><td>unelmacoin wallet address</td><td>starts with the capital letter "U"</td></tr>
 </table>
 
 *First 42200 Blocks PoW. 42201 - Infinite Blocks PoS only.
