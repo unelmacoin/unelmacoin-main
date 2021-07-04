@@ -55,4 +55,4 @@ Now lets run the unelmacoin daemon:
 `unelmacoind &`
 press enter
 
-You should see the unelmacoind daemon up and running in Ubuntu distro
+You should see the unelmacoind daemon up and running in Ubuntu distribution. 
