@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
-"Cannot obtain a lock on data directory %s. unelmacoin Core is probably already "
+"Cannot obtain a lock on data directory %s. Unelmacoin Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -166,7 +166,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "It is also recommended to set alertnotify so you are notified of problems;\n"
 "for example: alertnotify=echo %%s | mail -s \"unelmacoin Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
-"Unable to bind to %s on this computer. unelmacoin Core is probably already running."),
+"Unable to bind to %s on this computer. Unelmacoin Core is probably already running."),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
@@ -186,7 +186,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong unelmacoin Core will not work properly."),
+"your clock is wrong Unelmacoin Core will not work properly."),
 QT_TRANSLATE_NOOP("unelmacoin-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -240,7 +240,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", "Connect to a node to retrieve peer address
 QT_TRANSLATE_NOOP("unelmacoin-core", "Connection options:"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("unelmacoin-core", "Copyright (C) 2015-%i The unelmacoin Core Developers"),
+QT_TRANSLATE_NOOP("unelmacoin-core", "Copyright (C) 2015-%i The Unelmacoin Core Developers"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Could not parse masternode.conf"),
@@ -267,7 +267,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", "Error initializing wallet database environ
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("unelmacoin-core", "Error loading wallet.dat: Wallet requires newer version of unelmacoin Core"),
+QT_TRANSLATE_NOOP("unelmacoin-core", "Error loading wallet.dat: Wallet requires newer version of Unelmacoin Core"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Error recovering public key."),
@@ -295,7 +295,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Information"),
-QT_TRANSLATE_NOOP("unelmacoin-core", "Initialization sanity check failed. unelmacoin Core is shutting down."),
+QT_TRANSLATE_NOOP("unelmacoin-core", "Initialization sanity check failed. Unelmacoin Core is shutting down."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Invalid -onion address: '%s'"),
@@ -438,7 +438,7 @@ QT_TRANSLATE_NOOP("unelmacoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet needed to be rewritten: restart unelmacoin Core to complete"),
+QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet needed to be rewritten: restart Unelmacoin Core to complete"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("unelmacoin-core", "Warning"),

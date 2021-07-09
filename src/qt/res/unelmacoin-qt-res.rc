@@ -19,8 +19,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "unelmacoin"
-            VALUE "FileDescription",    "unelmacoin Core (OSS GUI client for unelmacoin)"
+            VALUE "CompanyName",        "Unelmacoin"
+            VALUE "FileDescription",    "Unelmacoin Core (OSS GUI client for unelmacoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "unelmacoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
