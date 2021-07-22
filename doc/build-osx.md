@@ -49,6 +49,7 @@ Instructions: Homebrew
 
 2.  Build unelmacoind:
 
+         chmod +x autogen.sh
         ./autogen.sh
         ./configure --with-gui=qt5
         make
