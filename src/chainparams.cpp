@@ -331,13 +331,24 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of
+    (0, uint256("0x6212c407227b4c31ec37559899047aad42c5bb510b4a9f2619e1e1238f9d1b8f"))
+    (1000, uint256("0x0000000510ca3c57bf8a606096412f7ddfbb98cc88123713f0310585fdd076fe"))
+    (10000, uint256("0x08e4daa369a31b9bc3922950505633cab7c8882b430ec85770cca6fe0b8c96c0"))
+    (20000, uint256("0x000000000102623bdc0cf85c4da276a766afa2eff276a41aeadc1a86ad6ecb97"))
+    (30000, uint256("0x0000000000c03b0771f979e84b55b85286846a566ca527b7a46b447a60dd5ef1"))
+    (40000, uint256("0x00000000004622b589aabbc9ba38f726f2378f94b7f7420bb548d77db5bcffd9"))
+    (50000, uint256("0xe41a8ae7d660c7ba1fee84cfb6cdef0916846fd0ee62b60f0df56383194e49d4"))
+    (60000, uint256("0x879e3897fc0ba3001b343e83b7974650ba403b3012a39ef6427fb1d836126a5b"))
+    (70000, uint256("0x00000000004622b589aabbc9ba38f726f2378f94b7f7420bb548d77db5bcffd9"))
+    (80000, uint256("0xbba8b76094eea7a877b01b8e2342a73ad83a3b834db8e5f6a93db878e5262b44"))
+    (86490, uint256("0xd8b49b64d955751b4b630088c099a5e4537f33897c1ada09e39165ce46a87645"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1506091284, // * UNIX timestamp of last checkpoint block
-    1,    // * total number of transactions between genesis and last checkpoint
+    1626972523, // * UNIX timestamp of last checkpoint block
+    86490,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2        // * estimated number of transactions per day after checkpoint
+    100        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -410,13 +421,13 @@ public:
         assert(hashGenesisBlock == uint256("0x6212c407227b4c31ec37559899047aad42c5bb510b4a9f2619e1e1238f9d1b8f"));
         //assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        vSeeds.push_back(CDNSSeedData("207.180.238.175", "207.180.238.175"));     
-        vSeeds.push_back(CDNSSeedData("209.145.48.127", "209.145.48.127 ")); 
-        vSeeds.push_back(CDNSSeedData("194.233.64.100", "194.233.64.100 ")); 
-        vSeeds.push_back(CDNSSeedData("207.180.224.135", "207.180.224.135")); 
-        vSeeds.push_back(CDNSSeedData("194.163.135.86", "194.163.135.86")); 
-        vSeeds.push_back(CDNSSeedData("161.97.135.40", "161.97.135.40")); 
-        vSeeds.push_back(CDNSSeedData("194.163.137.26", "194.163.137.26")); 
+        vSeeds.push_back(CDNSSeedData("207.180.238.175", "207.180.238.175"));
+        vSeeds.push_back(CDNSSeedData("209.145.48.127", "209.145.48.127 "));
+        vSeeds.push_back(CDNSSeedData("194.233.64.100", "194.233.64.100 "));
+        vSeeds.push_back(CDNSSeedData("207.180.224.135", "207.180.224.135"));
+        vSeeds.push_back(CDNSSeedData("194.163.135.86", "194.163.135.86"));
+        vSeeds.push_back(CDNSSeedData("161.97.135.40", "161.97.135.40"));
+        vSeeds.push_back(CDNSSeedData("194.163.137.26", "194.163.137.26"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 68);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 69);
