@@ -1651,9 +1651,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 
-    if (nHeight <= 243200) {
+    if (nHeight <= 99999999) {
         ret = blockValue / 2;
-    } else if (nHeight >= 243201)  {
+    } else if (nHeight >= 100000000)  {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
         int64_t mNodeCoins = mnodeman.size() * 250000 * COIN;
 
