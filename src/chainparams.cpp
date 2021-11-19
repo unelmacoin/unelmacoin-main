@@ -394,7 +394,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 2 * 60; //
         nTargetSpacing = 1 * 60;  // unelmacoin: 1 minute
-        nLastPOWBlock = 42200;
+        nLastPOWBlock = 512000;
         nMaturity = 6;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
